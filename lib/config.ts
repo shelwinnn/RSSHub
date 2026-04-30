@@ -178,6 +178,7 @@ type ConfigEnvKeys =
     | 'PIXIV_BYPASS_DOH'
     | 'PIXIV_IMG_PROXY'
     | 'PKUBBS_COOKIE'
+    | 'PRODUCTHUNT_ACCESS_TOKEN'
     | 'QINGTING_ID'
     | 'READWISE_ACCESS_TOKEN'
     | 'SARABA1ST_COOKIE'
@@ -572,6 +573,9 @@ export type Config = {
     };
     pkubbs: {
         cookie?: string;
+    };
+    producthunt: {
+        accessToken?: string;
     };
     qingting: {
         id?: string;
@@ -1075,6 +1079,9 @@ const calculateValue = () => {
         },
         pkubbs: {
             cookie: envs.PKUBBS_COOKIE,
+        },
+        producthunt: {
+            accessToken: envs.PRODUCTHUNT_ACCESS_TOKEN,
         },
         qingting: {
             id: envs.QINGTING_ID,
