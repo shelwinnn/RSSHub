@@ -2285,7 +2285,7 @@ export type RoutePath =
   | `/postman/release-notes`
   | `/priconne-redive/news/:server?`
   | `/producereport/:category{.+}?`
-  | `/producthunt/today`
+  | `/producthunt/:period?`
   | `/projectjav/actress/:id`
   | `/ps/monthly-games`
   | `/ps/trophy/:id`

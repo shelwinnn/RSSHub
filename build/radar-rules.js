@@ -18271,7 +18271,7 @@
     www:[ { title:"Top Products Launching Today",
         docs:"https://docs.rsshub.app/routes/other",
         source:[ "/" ],
-        target:"/producthunt/today" } ] },
+        target:"/producthunt/:period?" } ] },
   "projectjav.com":{ _name:"ProjectJAV",
     ".":[ { title:"Actress",
         docs:"https://docs.rsshub.app/routes/multimedia",

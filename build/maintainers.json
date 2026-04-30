@@ -7007,7 +7007,7 @@
   "/producereport/:category{.+}?": [
     "nczitzk"
   ],
-  "/producthunt/today": [
+  "/producthunt/:period?": [
     "miaoyafeng",
     "Fatpandac"
   ],

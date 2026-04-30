@@ -39359,7 +39359,7 @@
         "source": [
           "/"
         ],
-        "target": "/producthunt/today"
+        "target": "/producthunt/:period?"
       }
     ]
   },
